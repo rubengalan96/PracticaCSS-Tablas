@@ -1,0 +1,84 @@
+h1{
+    font-family: 'Hanalei', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+/* TABLA 1 */
+table.monedas1{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: black 1px solid;
+    border-collapse: separate;
+    empty-cells: hide;
+    border-spacing: 1px;
+}
+table.monedas1 td{
+    border: black 1px solid;
+    text-align: center;
+}
+table.monedas1 th{
+    border: black 1px solid;
+}
+table.monedas1 caption{
+    background-color: rgb(255, 208, 0);
+    color: blue;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* TABLA 2 */
+table.vacio{
+    border: black 1px solid;
+}
+table.vacio td{
+     width: 99vw; /*Lo he dejado en 99 para que se vea donde empieza y donde acaba */
+    padding: 20px;
+}
+/* TABLA 3 */
+table.monedas2{
+    width: 70vw;
+    margin-left:auto;
+    margin-right: auto;
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+
+table.monedas2 td{
+    border: black 1px solid;
+    text-align: center;
+}
+table.monedas2 th{
+    border: black 1px solid;
+}
+
+table.monedas2 tbody{
+    border: red 5px dotted;
+}
+
+table.monedas2 caption {
+    caption-side: bottom;
+    background-color: rgb(255, 208, 0);
+    color: blue;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  hr{
+      text-align: center;
+      width: 50vw;
+  }
+
+  table.rentabilidades{
+      border: 2px red solid;
+      width: 99vw; /*Lo he dejado en 99 para que se vea donde empieza y donde acaba */
+      background-color: rgb(255, 208, 0);
+      border-spacing: 1px;
+  }
+  table.rentabilidades td{
+    color: blue;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+    border: 2px solid red;
+  }
